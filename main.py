@@ -1,10 +1,10 @@
-#name = ("Klim")
-#age = ("12")
-#hungry = ("false")
-#float = (12 / 34)
-#print(name)
-#print(age)
-#print(hungry)
-#print(float)
+print("сейчас тебя попросит ввести два числа")
+quetion = input("если хочешь что бы программа сложила эти два числа напиши да")
 
+if quetion == ("да"):
+    a = int(input("тогда введи первое число"))
+    b = int(input("и введи второе число"))
+    print(a+b)
 
+else:
+    print("ну ладно как хочешь")
